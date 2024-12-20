@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Limsward International Academy</title>
+    <!-- Link to Stylesheets -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo/favicon.ico">
+   
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+     
+      
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.6.4/dist/email.min.js"></script>
+    
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header-area sticky">
+        <div class="header-main-area sticky">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-3 col-2">
+                        <div class="brand-logo">
+                            <a href="index.html">
+                                <img src="img/logo/logo.png" alt="Limsward International Academy Logo" width="150">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-9 col-10">
+                        <div class="main-menu-inner">
+                             <!-- hamburger -->
+                    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+                    <label for="menu-toggle" class="menu-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                            <nav class="main-menu">
+                                <ul class="nav">
+                                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="about.html"  data-bs-toggle="dropdown" >About Us</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="about.html">About Limsward</a></li>
+                                            <li><a class="dropdown-item" href="anthem.html">Anthem & Pledge</a></li>
+                                            <li><a class="dropdown-item" href="mission.html">Mission & Vision</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="gallery1.html">Gallery</a></li>
+                                    <li class="nav-item active"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Contact Us Section -->
+    <section class="contact-us-section">
+        <div class="container">
+            <div class="col-lg-12 col-12">
+            <h2 class="section-title text-center">Contact Us</h2>
+            <form id="contact-form">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="from_name" required><br><br>
+                
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="reply_to" required><br><br>
+                
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" required></textarea><br><br>
+                
+                <button type="submit">Send Email</button>
+              </form>
+            </div>
+        </div>
+    </section>
+    <section class="map_area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">  
+                    <div class="maps">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d247.70076553439273!2d3.284038!3d6.620535!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b90f1fb133389%3A0x4035be45e1f0d875!2s31%20Semiu%20Tiamiyu%20St%2C%20Oke%20Odo%2C%20Lagos%20102213%2C%20Lagos!5e0!3m2!1sen!2sng!4v1733146699175!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="contact-info-section">
+                        <h2>Contact Us</h2>
+                        <p>We would love to hear from you! Feel free to reach out to us using the following contact information:</p>
+                        <ul class="contact-info-list">
+                            <li><strong>Address:</strong> <a href="https://maps.app.goo.gl/zjBzkUHnPrzytc3FA" target="_blank">31 Semiu Tiamiyu St, Oke Odo, Lagos</a></li>
+                            <li><strong>Phone:</strong> +234 802 3308 222, +234 817 1791 961</li>
+                            <li><strong>Email:</strong> limswardint@gmail.com</li>
+                            <li><strong>Office Hours:</strong> Monday - Friday, 7:00 AM - 4:00 PM</li>
+                        </ul>
+                        <p>Follow us on social media to stay updated:</p>
+                        <ul class="social-media">
+                            <a href="https://facebook.com/limswardacademy" target="_blank">Facebook</a>
+                            <li><a href="https://twitter.com/limswardacademy" target="_blank">Twitter</a></li>
+                            <li><a href="https://instagram.com/limswardacademy" target="_blank">Instagram</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>&copy; 2024 Limsward International Academy. All rights reserved.</p>
+                    <p><a href="contact.html">Contact Us</a> | <a href="privacy-policy.html">Privacy Policy</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+        (function () {
+          // Initialize EmailJS with your user ID
+          emailjs.init("86lxAIryRIgiEzb-D"); // Replace with your EmailJS user ID
+    
+          // Form submission handler
+          document.getElementById('contact-form').addEventListener('submit', function (e) {
+            e.preventDefault(); // Prevent form from reloading the page
+    
+            // Send the email
+            emailjs.sendForm('service_2mcfvpg', 'template_858mf6a', this)
+              .then(function () {
+                alert('Email sent successfully!');
+              }, function (error) {
+                alert('Failed to send email: ' + JSON.stringify(error));
+              });
+          });
+        })();
+      </script>
+   
+</body>
+</html>
